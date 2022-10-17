@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @author tourist
+ * @author fckey
  * @version 1.0
  * @project backend
  * @description 返回的是index的所有页面等重要的索引信息

@@ -4,10 +4,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
- * @author tourist
+ * @author fckey
  * @version 1.0
  * @project backend
  * @description bot的有关信息类
@@ -17,10 +19,10 @@ import java.util.List;
 @RequestMapping("/pk/")
 public class BotInfoController {
     @RequestMapping("getBotInfo")
-    public List<String> getBotInfo(){
-        List<String> list = new ArrayList<>();
-        list.add("tset");
-        list.add("b");
-        return list;
+    public Map<String, String> getBotInfo(){
+        Map<String, String> map = new HashMap<>();
+        map.put("bot_name", "fckey");
+        map.put("bot_rating", "1");
+        return map;
     }
 }
