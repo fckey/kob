@@ -1,7 +1,7 @@
 <template>
     <div ref="parent" class="gamemap">
         <!-- 实现一个canvas -->
-        <canvas ref="canvas"></canvas>
+        <canvas ref="canvas" tabindex="0"></canvas>
     </div>
 </template>
 
