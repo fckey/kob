@@ -46,7 +46,6 @@ export default {
                     store.dispatch("getinfo", {
                         success() {
                             router.push({ name: "home" });
-                            console.log(store.state.user);
                         }
                     })
                     router.push({ name: 'home' })
@@ -71,7 +70,7 @@ button {
     width: 100%;
 }
 
-.error-message {
+div.error-message {
     color: red;
 }
 </style>
