@@ -6,7 +6,8 @@ export default ({
         username: "",
         photo: "",
         token: "",
-        is_login: false,
+        is_login: false, // 是否是登录状态
+        pulling_info: true, // 是否正在拉取信息
     },
     getters: {
 
@@ -27,6 +28,10 @@ export default ({
             state.photo = "";
             state.token = "";
             state.is_login = false;
+        },
+        // 判断当前是否还是向远程拉取信息
+        updatePullingInfo(state, pulling_info) {
+            state.pulling_info = pulling_info
         }
     },
     actions: {
@@ -40,6 +45,7 @@ export default ({
                 },
                 success(resp) {
                     if (resp.error_message === "success") {
+                        localStorage.setItem("jwt_token", resp.token);
                         context.commit("updateToken", resp.token);
                         data.success(resp);
                     } else {
@@ -79,6 +85,7 @@ export default ({
         },
         // 处理的是退出的逻辑
         logout(context) {
+            localStorage.removeItem("jwt_token");
             context.commit("logout")
         }
     },
