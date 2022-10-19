@@ -108,17 +108,4 @@ public class Bot extends Model<Bot> {
     public Serializable pkVal() {
         return super.pkVal();
     }
-
-    /**
-     * 解密代码
-     * @return
-     */
-    public String getDecContent(){return EncDesUtil.dec(content);}
-    /**
-     * 加密代码
-     * @return
-     */
-    public void setEncContent(String content){this.content = EncDesUtil.enc(content);}
-
-
 }

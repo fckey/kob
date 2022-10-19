@@ -67,8 +67,7 @@ public class BotServiceImpl implements BotService {
         }
         // 逻辑书写
         Date now = new Date();
-        Bot bot = new Bot(null, user.getId(), title, remark, "", 1500, now, now, "", "");
-        bot.setEncContent(content);
+        Bot bot = new Bot(null, user.getId(), title, remark, content, 1500, now, now, "", "");
         bot.setEncVerify(bot);
         bot.insert();
         map.put("error_message", "success");
@@ -155,7 +154,7 @@ public class BotServiceImpl implements BotService {
             return map;
         }
         // 更新
-        bot.setEncContent(content);
+        bot.setContent(content);
         bot.setTitle(title);
         bot.setRemark(remark);
         bot.setEncVerify(bot);
