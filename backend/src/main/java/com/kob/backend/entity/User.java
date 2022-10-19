@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
+import com.kob.backend.utils.EncDesUtil;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -48,5 +49,19 @@ public class User extends Model<User> {
     @Override
     public Serializable pkVal() {
         return super.pkVal();
+    }
+
+    /**
+     * 解密获取
+     * @return
+     */
+    public String getDecUserName() {
+        return EncDesUtil.dec(username);
+    }
+    /**
+     * 加密写入
+     */
+    public void setEncUserName(String userName) {
+        this.username = EncDesUtil.enc(userName);
     }
 }
