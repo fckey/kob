@@ -27,7 +27,6 @@ export default {
             socket = new WebSocket(socketUrl);
             // socket定义的几个函数
             socket.onopen = () => {
-                console.log("connected!");
                 store.commit("updateSocket", socket);
             }
             // 后端发送消息的时候，会调用这个函数
@@ -41,10 +40,11 @@ export default {
                     setTimeout(() => {
                         store.commit("updateStatus", "playing");
                     }, 2000);
+                    // 设置的如果是点到其他页面，视为自动放弃
+                    store.commit("updateGamemap", data.gamemap);
                 }
             }
             socket.onclose = () => {
-                console.log("disconnected!");
             }
         });
 

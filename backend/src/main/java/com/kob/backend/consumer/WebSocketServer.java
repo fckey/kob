@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.kob.backend.constant.CommonConstant;
 import com.kob.backend.entity.User;
 import com.kob.backend.mapper.UserMapper;
+import com.kob.backend.utils.Game;
 import com.kob.backend.utils.JwtAuthenticationUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +40,7 @@ public class WebSocketServer {
      * 静态变量的注入方式
      */
     private static UserMapper userMapper;
+
     @Autowired
     private void setUserMapper(UserMapper userMapper){
         WebSocketServer.userMapper = userMapper;
@@ -80,17 +82,20 @@ public class WebSocketServer {
             User a = it.next(), b = it.next();
             matchPool.remove(a);
             matchPool.remove(b);
-
+            Game game = new Game(15, 16, 25);
+            game.creatMap();
             JSONObject respA = new JSONObject();
             respA.put("event", "start_matching");
             respA.put("opponent_username", b.getDecUserName());
             respA.put("opponent_photo", b.getPhoto());
+            respA.put("gamemap", game.getG());
             users.get(a.getId()).sendMessage(respA.toJSONString());
 
             JSONObject respB = new JSONObject();
             respB.put("event", "start_matching");
             respB.put("opponent_username", a.getDecUserName());
             respB.put("opponent_photo", a.getPhoto());
+            respB.put("gamemap", game.getG());
             users.get(b.getId()).sendMessage(respB.toJSONString());
         }
     }
