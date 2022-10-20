@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Wed Oct 19 17:45:41 CST 2022</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:42,050</td>
+<td class="Message">Starting BackendApplication using Java 1.8.0_202 on DESKTOP-SLGEOB7 with PID 7448 (D:\笔记\项目\kob平台的构思\kob\backend\target\classes started by tourist in D:\笔记\项目\kob平台的构思\kob\backend)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:42,054</td>
+<td class="Message">No active profile set, falling back to 1 default profile: &quot;default&quot;</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">634</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:43,334</td>
+<td class="Message">Tomcat initialized with port(s): 8085 (http)</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">TomcatWebServer.java</td>
+<td class="LineOfCaller">108</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:43,345</td>
+<td class="Message">Initializing ProtocolHandler [&quot;http-nio-8085&quot;]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:43,346</td>
+<td class="Message">Starting service [Tomcat]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:43,347</td>
+<td class="Message">Starting Servlet engine: [Apache Tomcat/9.0.65]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:43,478</td>
+<td class="Message">Initializing Spring embedded WebApplicationContext</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:43,478</td>
+<td class="Message">Root WebApplicationContext: initialization completed in 1353 ms</td>
+<td class="MethodOfCaller">prepareWebApplicationContext</td>
+<td class="FileOfCaller">ServletWebServerApplicationContext.java</td>
+<td class="LineOfCaller">292</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:44,408</td>
+<td class="Message">Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f5a7226, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@519c6fcc, org.springframework.security.web.context.SecurityContextPersistenceFilter@6be6931f, org.springframework.security.web.header.HeaderWriterFilter@38d80d65, org.springframework.security.web.authentication.logout.LogoutFilter@4f116ca2, com.kob.backend.config.JwtAuthenticationTokenFilter@4eea94a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78da899f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bb147ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ad1701a, org.springframework.security.web.session.SessionManagementFilter@3cc79c02, org.springframework.security.web.access.ExceptionTranslationFilter@11381415, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@721d5b74]</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DefaultSecurityFilterChain.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:44,804</td>
+<td class="Message">Starting ProtocolHandler [&quot;http-nio-8085&quot;]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:44,824</td>
+<td class="Message">Tomcat started on port(s): 8085 (http) with context path &#39;&#39;</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">TomcatWebServer.java</td>
+<td class="LineOfCaller">220</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:45:44,835</td>
+<td class="Message">Started BackendApplication in 3.998 seconds (JVM running for 4.762)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Wed Oct 19 17:50:06 CST 2022</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:06,884</td>
+<td class="Message">Starting BackendApplication using Java 1.8.0_202 on DESKTOP-SLGEOB7 with PID 17708 (D:\笔记\项目\kob平台的构思\kob\backend\target\classes started by tourist in D:\笔记\项目\kob平台的构思\kob\backend)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:06,896</td>
+<td class="Message">No active profile set, falling back to 1 default profile: &quot;default&quot;</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">634</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:08,155</td>
+<td class="Message">Tomcat initialized with port(s): 8085 (http)</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">TomcatWebServer.java</td>
+<td class="LineOfCaller">108</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:08,166</td>
+<td class="Message">Initializing ProtocolHandler [&quot;http-nio-8085&quot;]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:08,168</td>
+<td class="Message">Starting service [Tomcat]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:08,168</td>
+<td class="Message">Starting Servlet engine: [Apache Tomcat/9.0.65]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:08,290</td>
+<td class="Message">Initializing Spring embedded WebApplicationContext</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:08,290</td>
+<td class="Message">Root WebApplicationContext: initialization completed in 1322 ms</td>
+<td class="MethodOfCaller">prepareWebApplicationContext</td>
+<td class="FileOfCaller">ServletWebServerApplicationContext.java</td>
+<td class="LineOfCaller">292</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:09,170</td>
+<td class="Message">Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@226de93c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72028a45, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a50b32d, org.springframework.security.web.header.HeaderWriterFilter@4e0cc334, org.springframework.security.web.authentication.logout.LogoutFilter@4ea56bdb, com.kob.backend.config.JwtAuthenticationTokenFilter@310ed6b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ac6dd3d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@499ee966, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74667e6a, org.springframework.security.web.session.SessionManagementFilter@7bbcf6f0, org.springframework.security.web.access.ExceptionTranslationFilter@747835f5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57f8951a]</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DefaultSecurityFilterChain.java</td>
+<td class="LineOfCaller">55</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:09,556</td>
+<td class="Message">Starting ProtocolHandler [&quot;http-nio-8085&quot;]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">173</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:09,577</td>
+<td class="Message">Tomcat started on port(s): 8085 (http) with context path &#39;&#39;</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">TomcatWebServer.java</td>
+<td class="LineOfCaller">220</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2022-10-19 17:50:09,587</td>
+<td class="Message">Started BackendApplication in 3.355 seconds (JVM running for 4.182)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+</table>
+</body></html>

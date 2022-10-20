@@ -2,9 +2,8 @@ package com.kob.backend.config;
 
 import com.kob.backend.entity.User;
 import com.kob.backend.mapper.UserMapper;
-import com.kob.backend.utils.JwtUtil;
+import com.kob.backend.utils.JwtAuthenticationUtil;
 import com.kob.backend.utils.UserDetailsImpl;
-import io.jsonwebtoken.Claims;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -43,15 +42,9 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
         token = token.substring(7);
 
-        String userid;
-        try {
-            Claims claims = JwtUtil.parseJWT(token);
-            userid = claims.getSubject();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        Integer userid = JwtAuthenticationUtil.getUserId(token);
 
-        User user = userMapper.selectById(Integer.parseInt(userid));
+        User user = userMapper.selectById(userid);
 
         if (user == null) {
             throw new RuntimeException("用户名未登录");

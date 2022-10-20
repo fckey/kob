@@ -1,0 +1,126 @@
+2022-10-20 08:23:29.202 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:788] WARN  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h57m23s175ms742µs800ns). 
+2022-10-20 08:23:29.204 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:23:29.204 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.205 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c99ee69: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.205 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:342] DEBUG - HikariPool-1 - Add connection elided, waiting 0, queue 1 
+2022-10-20 08:23:29.216 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:342] DEBUG - HikariPool-1 - Add connection elided, waiting 0, queue 1 
+2022-10-20 08:23:29.216 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:342] DEBUG - HikariPool-1 - Add connection elided, waiting 0, queue 1 
+2022-10-20 08:23:29.216 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:342] DEBUG - HikariPool-1 - Add connection elided, waiting 0, queue 1 
+2022-10-20 08:23:29.216 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:342] DEBUG - HikariPool-1 - Add connection elided, waiting 0, queue 1 
+2022-10-20 08:23:29.217 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:342] DEBUG - HikariPool-1 - Add connection elided, waiting 0, queue 1 
+2022-10-20 08:23:29.217 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:342] DEBUG - HikariPool-1 - Add connection elided, waiting 0, queue 5 
+2022-10-20 08:23:29.217 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@38498b7d: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.217 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:342] DEBUG - HikariPool-1 - Add connection elided, waiting 0, queue 8 
+2022-10-20 08:23:29.217 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4cfccb5f: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.218 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.218 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@38581474: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.220 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.220 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7cd42d8e: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.220 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.220 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@777721a1: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.220 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@351a5bf8 
+2022-10-20 08:23:29.222 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.222 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1082fe0a: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.223 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.223 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@238b98b8: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.223 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.223 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@646bcbce: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.224 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.224 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.PoolBase:134] DEBUG - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@825a41c: (connection has passed maxLifetime) 
+2022-10-20 08:23:29.224 [HikariPool-1 connection closer] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:23:29.232 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41a254e3 
+2022-10-20 08:23:29.244 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4861db59 
+2022-10-20 08:23:29.255 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@147940e6 
+2022-10-20 08:23:29.266 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69af4a8e 
+2022-10-20 08:23:29.279 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dd566c9 
+2022-10-20 08:23:29.291 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ee4ab77 
+2022-10-20 08:23:29.303 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a1e8858 
+2022-10-20 08:23:29.315 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21a0d55d 
+2022-10-20 08:23:29.315 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0) 
+2022-10-20 08:23:29.328 [HikariPool-1 connection adder] [com.zaxxer.hikari.pool.HikariPool:729] DEBUG - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f79d8bb 
+2022-10-20 08:23:59.205 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:23:59.205 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:24:29.206 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:24:29.206 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:24:59.208 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:24:59.208 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:25:29.210 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:25:29.210 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:25:59.211 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:25:59.211 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:26:29.212 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:26:29.212 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:26:59.214 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:26:59.215 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:27:17.034 [http-nio-8085-exec-5] [o.s.security.web.FilterChainProxy:218] DEBUG - Securing OPTIONS /user/account/info/ 
+2022-10-20 08:27:17.035 [http-nio-8085-exec-5] [o.s.s.w.c.SecurityContextPersistenceFilter:104] DEBUG - Set SecurityContextHolder to empty SecurityContext 
+2022-10-20 08:27:17.036 [http-nio-8085-exec-5] [o.s.s.w.a.AnonymousAuthenticationFilter:100] DEBUG - Set SecurityContextHolder to anonymous SecurityContext 
+2022-10-20 08:27:17.036 [http-nio-8085-exec-5] [o.s.s.w.a.i.FilterSecurityInterceptor:210] DEBUG - Authorized filter invocation [OPTIONS /user/account/info/] with attributes [permitAll] 
+2022-10-20 08:27:17.037 [http-nio-8085-exec-5] [o.s.security.web.FilterChainProxy:333] DEBUG - Secured OPTIONS /user/account/info/ 
+2022-10-20 08:27:17.037 [http-nio-8085-exec-5] [o.s.web.servlet.DispatcherServlet:119] DEBUG - OPTIONS "/user/account/info/", parameters={} 
+2022-10-20 08:27:17.039 [http-nio-8085-exec-5] [o.s.w.s.m.m.a.RequestMappingHandlerMapping:522] DEBUG - Mapped to com.kob.backend.controller.user.UserController#getInfo() 
+2022-10-20 08:27:17.157 [http-nio-8085-exec-5] [o.s.web.servlet.DispatcherServlet:1131] DEBUG - Completed 200 OK 
+2022-10-20 08:27:17.158 [http-nio-8085-exec-5] [o.s.s.w.c.SecurityContextPersistenceFilter:120] DEBUG - Cleared SecurityContextHolder to complete request 
+2022-10-20 08:27:17.160 [http-nio-8085-exec-6] [o.s.security.web.FilterChainProxy:218] DEBUG - Securing GET /user/account/info/ 
+2022-10-20 08:27:17.160 [http-nio-8085-exec-6] [o.s.s.w.c.SecurityContextPersistenceFilter:104] DEBUG - Set SecurityContextHolder to empty SecurityContext 
+2022-10-20 08:27:17.162 [http-nio-8085-exec-6] [org.mybatis.spring.SqlSessionUtils:49] DEBUG - Creating a new SqlSession 
+2022-10-20 08:27:17.162 [http-nio-8085-exec-6] [org.mybatis.spring.SqlSessionUtils:49] DEBUG - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3543375c] was not registered for synchronization because synchronization is not active 
+2022-10-20 08:27:17.163 [http-nio-8085-exec-6] [o.s.jdbc.datasource.DataSourceUtils:116] DEBUG - Fetching JDBC Connection from DataSource 
+2022-10-20 08:27:17.164 [http-nio-8085-exec-6] [o.m.s.t.SpringManagedTransaction:49] DEBUG - JDBC Connection [HikariProxyConnection@1164266702 wrapping com.mysql.cj.jdbc.ConnectionImpl@351a5bf8] will not be managed by Spring 
+2022-10-20 08:27:17.164 [http-nio-8085-exec-6] [c.k.b.mapper.UserMapper.selectById:137] DEBUG - ==>  Preparing: SELECT id,username,password,photo FROM t_user WHERE id=? 
+2022-10-20 08:27:17.164 [http-nio-8085-exec-6] [c.k.b.mapper.UserMapper.selectById:137] DEBUG - ==> Parameters: 9(Integer) 
+2022-10-20 08:27:17.166 [http-nio-8085-exec-6] [c.k.b.mapper.UserMapper.selectById:137] DEBUG - <==      Total: 1 
+2022-10-20 08:27:17.166 [http-nio-8085-exec-6] [org.mybatis.spring.SqlSessionUtils:49] DEBUG - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3543375c] 
+2022-10-20 08:27:17.167 [http-nio-8085-exec-6] [o.s.s.w.a.i.FilterSecurityInterceptor:210] DEBUG - Authorized filter invocation [GET /user/account/info/] with attributes [authenticated] 
+2022-10-20 08:27:17.168 [http-nio-8085-exec-6] [o.s.security.web.FilterChainProxy:333] DEBUG - Secured GET /user/account/info/ 
+2022-10-20 08:27:17.168 [http-nio-8085-exec-6] [o.s.web.servlet.DispatcherServlet:119] DEBUG - GET "/user/account/info/", parameters={} 
+2022-10-20 08:27:17.169 [http-nio-8085-exec-6] [o.s.w.s.m.m.a.RequestMappingHandlerMapping:522] DEBUG - Mapped to com.kob.backend.controller.user.UserController#getInfo() 
+2022-10-20 08:27:17.171 [http-nio-8085-exec-6] [o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:268] DEBUG - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json] 
+2022-10-20 08:27:17.173 [http-nio-8085-exec-6] [o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:119] DEBUG - Writing [{error_message=success, photo=https://cdn.acwing.com/media/user/profile/photo/222752_lg_a052ed0c30.j (truncated)...] 
+2022-10-20 08:27:17.175 [http-nio-8085-exec-6] [o.s.web.servlet.DispatcherServlet:1131] DEBUG - Completed 200 OK 
+2022-10-20 08:27:17.175 [http-nio-8085-exec-6] [o.s.s.w.c.SecurityContextPersistenceFilter:120] DEBUG - Cleared SecurityContextHolder to complete request 
+2022-10-20 08:27:17.203 [http-nio-8085-exec-7] [c.k.backend.consumer.WebSocketServer:51] INFO  - connected! 
+2022-10-20 08:27:17.206 [http-nio-8085-exec-7] [org.mybatis.spring.SqlSessionUtils:49] DEBUG - Creating a new SqlSession 
+2022-10-20 08:27:17.207 [http-nio-8085-exec-7] [org.mybatis.spring.SqlSessionUtils:49] DEBUG - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7902a7b7] was not registered for synchronization because synchronization is not active 
+2022-10-20 08:27:17.207 [http-nio-8085-exec-7] [o.s.jdbc.datasource.DataSourceUtils:116] DEBUG - Fetching JDBC Connection from DataSource 
+2022-10-20 08:27:17.207 [http-nio-8085-exec-7] [o.m.s.t.SpringManagedTransaction:49] DEBUG - JDBC Connection [HikariProxyConnection@1816043331 wrapping com.mysql.cj.jdbc.ConnectionImpl@351a5bf8] will not be managed by Spring 
+2022-10-20 08:27:17.207 [http-nio-8085-exec-7] [c.k.b.mapper.UserMapper.selectById:137] DEBUG - ==>  Preparing: SELECT id,username,password,photo FROM t_user WHERE id=? 
+2022-10-20 08:27:17.208 [http-nio-8085-exec-7] [c.k.b.mapper.UserMapper.selectById:137] DEBUG - ==> Parameters: 9(Integer) 
+2022-10-20 08:27:17.210 [http-nio-8085-exec-7] [c.k.b.mapper.UserMapper.selectById:137] DEBUG - <==      Total: 1 
+2022-10-20 08:27:17.210 [http-nio-8085-exec-7] [org.mybatis.spring.SqlSessionUtils:49] DEBUG - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7902a7b7] 
+2022-10-20 08:27:17.210 [http-nio-8085-exec-7] [c.k.backend.consumer.WebSocketServer:62] INFO  - User(id=9, username=0610F43AE97E08C8, password=$2a$10$1jTmEZ7es6NTQWM4BYH6YesCV4i2xp.mnOtCR3981rEDy1758.7Ny, photo=https://cdn.acwing.com/media/user/profile/photo/222752_lg_a052ed0c30.jpg) 
+2022-10-20 08:27:23.334 [http-nio-8085-exec-8] [c.k.backend.consumer.WebSocketServer:68] INFO  - close 
+2022-10-20 08:27:29.217 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:27:29.217 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:27:59.219 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:27:59.219 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:28:29.219 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:28:29.219 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:28:59.222 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:28:59.222 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:29:29.223 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:29:29.223 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:29:59.224 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:29:59.224 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:30:29.227 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:30:29.227 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:30:59.235 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:30:59.236 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:31:29.237 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:31:29.237 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:31:59.238 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:31:59.238 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:32:29.240 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:32:29.240 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:32:59.241 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:32:59.241 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:33:29.242 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:33:29.242 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:33:59.243 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:33:59.243 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:34:29.244 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:34:29.244 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:34:59.246 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:34:59.246 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2022-10-20 08:35:29.271 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:421] DEBUG - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2022-10-20 08:35:29.272 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool:518] DEBUG - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
